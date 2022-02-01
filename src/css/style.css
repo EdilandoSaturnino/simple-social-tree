@@ -1,0 +1,76 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Cores principais */
+:root {
+    --bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+/* Corpo */
+body{
+    background-color: var(--bg-color)
+}
+
+/* Perfil */
+.perfil{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perfil img{
+    border-radius: 50%;
+    border: 2px solid var(--purple);
+    padding: 3px;
+}
+
+.perfil a{
+    text-decoration: none;
+    color: var(--purple);
+    margin: 15px;
+}
+
+/* Links */
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+}
+
+.links button{
+    width: 326px;
+    height: 49px;
+    padding: 10px;
+    margin: 10px;
+
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--purple);
+}
+
+/* Social Medias */
+.social-medias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-medias a{
+    padding: 15px;
+}
